@@ -1,0 +1,30 @@
+<div class="container">
+    <h3>Book Your Flight</h3>
+    <br /><br />
+    <select name="select-sector" id="select-sector">
+        <option value="--select-sector--">Select-Sector</option>
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="pune">Pune</option>
+        <option value="hyderabad">Hyderabad</option>
+        <option value="kolkata">Kolkata</option>
+    </select><br />
+    <br />
+    <label id="lab">Traveller's</label><br /><br />
+    <div id="number" (click)="toggleDisplay()">Traveller's: {{ count }}</div>
+    <div *ngIf="!isDisplay" id="divv">
+        <div id="div1">
+            <p>Adult</p>
+            <button (click)="counter('add')">+</button><br /><br />
+            <button (click)="counter('minus')">-</button>
+        </div>
+        <div id="div2">
+            <p>Child</p>
+            <button (click)="counter('add')">+</button><br /><br />
+            <button (click)="counter('minus')">-</button>
+        </div>
+    </div>
+    <br /><br />
+
+    <input type="text" id="texti" placeholder="Open Calendar" onfocus="(this.type='date')" />
+</div>

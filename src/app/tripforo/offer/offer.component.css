@@ -1,0 +1,21 @@
+.container1{
+    background-color: burlywood                 ;
+    max-width: 600px;
+    padding:25px;
+    margin: 40px 10px 10px 14px;
+    border-radius: 12px;
+    /* width:200%; */
+
+    
+}
+#text1{
+    border:1px solid grey;
+    padding:6px;
+}
+#text2{
+    border:1px solid grey;
+    padding:6px;
+}
+#text3{
+    width:52%;
+}
